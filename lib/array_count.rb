@@ -3,6 +3,7 @@ def count_strings(array)
     if element == String
   end 
   # Return the total number of strings in the provided array using the count enumerable
+  array
 end
 
 def count_empty_strings(array)
@@ -10,4 +11,5 @@ def count_empty_strings(array)
     if element == []
   end 
   # Return the total number of EMPTY strings in the provided array using the count enumerable
+  array 
 end
